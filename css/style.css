@@ -1,8 +1,19 @@
 * {
-  margin: auto;
-  padding: auto;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
 }
 body {
   font-family: "Poppins", sans-serif;
+}
+header {
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
+.logo_container {
+}
+nav {
+}
+.cart {
 }
