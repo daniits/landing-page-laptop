@@ -3,12 +3,14 @@
   padding: 0px;
   box-sizing: border-box;
 }
+
 body {
   font-family: "Poppins", sans-serif;
 }
 button {
   font-family: "Poppins", sans-serif;
 }
+
 header {
   display: flex;
   width: 90%;
@@ -16,15 +18,17 @@ header {
   margin: auto;
   align-items: center;
 }
-.logo_container,
+
+.logo-container,
 .nav-links,
 .cart {
   display: flex;
 }
-.logo_container {
+
+.logo-container {
   flex: 1;
 }
-.log {
+.logo {
   font-weight: 400;
   margin: 5px;
 }
@@ -44,6 +48,7 @@ nav {
   flex: 1;
   justify-content: flex-end;
 }
+
 .presentation {
   display: flex;
   width: 90%;
@@ -55,16 +60,16 @@ nav {
   flex: 1;
 }
 .intro-text h1 {
-  font-size: 40px;
+  font-size: 44px;
   font-weight: 500;
   background: linear-gradient(to right, #494964, #6f6f89);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .intro-text p {
-  margin: 5px;
+  margin-top: 5px;
   font-size: 22px;
-  color: #595772;
+  color: #585772;
 }
 .cta {
   padding: 50px 0px 0px 0px;
@@ -79,7 +84,6 @@ nav {
   font-size: 16px;
 }
 .cta-add {
-  border: 2px solid #c36cbb;
   background: #c36cbb;
   width: 150px;
   height: 50px;
@@ -96,12 +100,12 @@ nav {
   justify-content: center;
   height: 60vh;
 }
-
 .cover img {
   height: 100%;
   filter: drop-shadow(0px 5px 3px black);
   animation: drop 1.5s ease;
 }
+
 .big-circle {
   position: absolute;
   top: 0px;
@@ -115,8 +119,8 @@ nav {
   top: 30%;
   right: 30%;
   z-index: -1;
-  opacity: 0.4;
   height: 60%;
+  opacity: 0.4;
 }
 .small-circle {
   position: absolute;
@@ -124,6 +128,7 @@ nav {
   left: 20%;
   z-index: -1;
 }
+
 .laptop-select {
   width: 15%;
   display: flex;
@@ -142,6 +147,7 @@ nav {
     transform: translateY(0px);
   }
 }
+
 @media screen and (max-width: 1024px) {
   .presentation {
     flex-direction: column;
@@ -167,5 +173,10 @@ nav {
   }
   .cover img {
     height: 80%;
+  }
+  .small-circle,
+  .medium-circle,
+  .big-circle {
+    opacity: 0.2;
   }
 }
